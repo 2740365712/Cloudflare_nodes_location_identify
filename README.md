@@ -18,7 +18,7 @@ jsDelivr
 [![](https://data.jsdelivr.com/v1/package/gh/Rayzggz/Cloudflare_nodes_location_identify/badge)](https://www.jsdelivr.com/package/gh/2740365712/Cloudflare_nodes_location_identify)  
 
 在需要的地方加入  
-`<p><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2740365712/Cloudflare_nodes_location_identify@latest/cloudflare_nodes_identify.js"></script></p>`  
+`<p>CDN节点：<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/2740365712/Cloudflare_nodes_location_identify@latest/cloudflare_nodes_identify.js"></script></p>`  
 即可
 
 
