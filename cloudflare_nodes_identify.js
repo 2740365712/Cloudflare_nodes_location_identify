@@ -23,7 +23,7 @@ if(lang.indexOf('zh')>-1){
 }
 for (var i = 0; i < nodes.length; i++) {
 	if (headers == nodes[i][0]) {
-		document.write("[" + headers + "]" + nodes[i][1] + nodes[i][2]);
+		document.write("[" + headers + "]" + nodes[i][1]);
 		break;
 	}
 }
