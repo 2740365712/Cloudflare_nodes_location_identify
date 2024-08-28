@@ -9,7 +9,7 @@ license           GPL-3.0
 */
 
 /*
-2024.08.28 修改了中文的显示样式，修改者为2740365712 
+2024.08.28 修改了中文的显示样式，加入了找不到节点时的处理方式，修改者为2740365712 
 */
 var req = new XMLHttpRequest();
 req.open('GET', "/cdn-cgi/trace", false);
@@ -25,5 +25,8 @@ for (var i = 0; i < nodes.length; i++) {
 	if (headers == nodes[i][0]) {
 		document.write("[" + headers + "]" + nodes[i][1]);
 		break;
+	}
+	if (i==nodes.length-1) {
+		document.write("Unknown");
 	}
 }
