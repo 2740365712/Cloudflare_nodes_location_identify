@@ -12,7 +12,7 @@ license           GPL-3.0
 2024.12.8 修改了中文的显示样式，加入了找不到节点时的处理方式，修改者为2740365712 
 */
 var req = new XMLHttpRequest();
-req.open('GET', "/cdn-cgi/trace", true);
+req.open('GET', window.location.origin+'/cdn-cgi/trace', false);
 req.send(null);
 if (!req.getResponseHeader('cf-ray')) {
     document.write("Cf-ray header not found.");
