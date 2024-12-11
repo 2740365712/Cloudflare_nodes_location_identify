@@ -12,7 +12,7 @@ license           GPL-3.0
 2024.12.11 增加错误处理并简单处理了使用vercel的情况。（2740365712）
 */
 var req = new XMLHttpRequest();
-req.open('GET', window.location.origin, false);
+req.open('GET', '/about' , false);
 req.send(null);
 if (!req.getResponseHeader('Server')) {
 	document.write("Unknown");
